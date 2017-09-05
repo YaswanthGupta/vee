@@ -612,7 +612,7 @@ $window.on('load', function () {
 		var image = 'images/map-marker.png';
 		// Let's also add a marker while we're at it
 		var marker = new google.maps.Marker({
-			position: new google.maps.LatLng(55.8610112, -4.2547319),
+			position: new google.maps.LatLng(17.002718, 81.803609),
 			map: map,
 			icon: image
 		});		
