@@ -484,7 +484,7 @@ $window.on('load', function () {
 			// How zoomed in you want the map to start at (always required)
 			zoom: mapZoom,
 			scrollwheel: false, // The latitude and longitude to center the map (always required)
-			center: new google.maps.LatLng(55.8610112, -4.2547319), // Glasgow
+			center: new google.maps.LatLng(17.002718, 81.803609), // Glasgow
 			// How you would like to style the map. 
 			// This is where you would paste any style found on Snazzy Maps.
 			styles: [{
