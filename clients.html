@@ -15,6 +15,7 @@
 	<link href="css/plugins/animate.min.css" rel="stylesheet">
 	<link href="css/plugins/slick.css" rel="stylesheet">
 	<link href="css/custom.css" rel="stylesheet">
+	<link href="css/plugins/family-tree.css" rel="stylesheet">
 	<link rel="stylesheet" href="css\plugins\font-awesome-4.7.0\css\font-awesome.min.css">
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
@@ -26,8 +27,7 @@
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,400,500,700,900" rel="stylesheet">
 	<!-- Google map -->
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBbTvB3dg57TSPSVLNbGpOBRMu8rbkOyU&callback=initMap"
-  type="text/javascript"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 </head>
 
 <body>
@@ -71,7 +71,7 @@
 							<div class="col-sm-4 text-center">
 								<div class="logo">
 									<a href="index.html"><img src="images/logo.png" alt="Logo">
-										<span><img src="images/bolt.gif" alt=""></span></a>
+									<span><img src="images/bolt.gif" alt=""></span></a>
 								</div>
 							</div>
 							<div class="col-sm-4">
@@ -87,7 +87,7 @@
 				<div id="slidemenu" data-hover="dropdown" data-animations="fadeIn">
 					<ul class="nav navbar-nav">
 						<li><a href="index.html"><span class="electric-btn"><span class="text">Home</span></span></a></li>
-						<li class="active"><a href="about.html"><span class="electric-btn"><span class="text">About Us</span></span></a></li>
+						<li><a href="about.html"><span class="electric-btn"><span class="text">About Us</span></span></a></li>
 						<li class="dropdown"><a href="services.html" data-toggle="dropdown" data-submenu=""><span class="electric-btn"><span class="text">Services</span></span></a>
 							<!--<ul class="dropdown-menu" role="menu">
 								<li class="dropdown-submenu"> <a href="#" data-toggle="dropdown" data-submenu="">Commercial <span class="ecaret"></span></a>
@@ -115,7 +115,7 @@
 						</li>
 						<li><a href="gallery.html"><span class="electric-btn"><span class="text">Gallery</span></span></a>
 						</li>
-						<li><a href="clients.html"><span class="electric-btn"><span class="text">Clients</span></span></a>
+						<li class="active"><a href="clients.html"><span class="electric-btn"><span class="text">Clients</span></span></a>
 						</li>
 						<li><a href="faq.html"><span class="electric-btn"><span class="text">FAQ</span></span></a>
 						</li>
@@ -130,146 +130,59 @@
 	<!-- Content  -->
 	<div id="page-content">
 		<!-- Breadcrumbs Block -->
-
 		<div class="container">
 			<div class="breadcrumbs">
 				<ul class="breadcrumb">
 					<li><a href="index.html">Home</a></li>
-					<li class="active">About Us</li>
+					<li class="active">Our Clients</li>
 				</ul>
 			</div>
 		</div>
-
 		<!-- //Breadcrumbs Block -->
-		<!-- About Block -->
+		<!-- Block -->
 		<div class="block">
 			<div class="container">
-				<h1 class="text-center">About <b>Us</b></h1>
-				<p class="font24 text-center">We are locally owned and operated which makes our services causal as they are done by friendly and helpful technicians.</p>
-				<div class="row">
-					<div class="col-sm-12">
-						<p>We are locally owned and operated which makes our services causal as they are done by friendly and helpful technicians. Our mission is to service each client with a highly trained and courteous technician that is dependable and always trustworthy. All of our services are backed by our 100% satisfaction guarantee. We service anywhere in Andhra Pradesh.</p>
-
-						<p>Our electricians can install anything from new security lighting for your outdoors to a whole home generator that will keep your appliances working during a power outage. Our installation services are always done promptly and safely.</p>
-
-						<p>Electrical repairs are always performed by qualified techs that are trained in tasks such as ceiling fan repairs, troubleshooting, all types of lighting (repairs & installations), outlets and GFI outlet repairs. Call for free estimates.</p>
-					</div>
-					<div class="divider-sm visible-xs"></div>
-					<!--<div class="col-sm-6">
-
-						<img src="images/about-img-1.jpg" class="img-responsive" alt="">
-
-					</div>-->
-				</div>
-				<!--<div class="divider"></div>
-				<div class="row">
-					<div class="col-sm-6">
-						<img src="images/about-img-2.jpg" class="img-responsive" alt="">
-					</div>
-					<div class="divider-sm visible-xs"></div>
-					<div class="col-sm-6">
-						<div class="divider-sm"></div>
-						<h2>Certificates</h2>
-						<img src="images/about-img-3.jpg" class="img-responsive" alt="">
-					</div>
-				</div>-->
+				<h1 class="text-center">Our <b>Clients</b></h1>
+				<p class="font24 text-center">Below are some of our esteemed clients.</p>
+				<!--
+				We will create a family tree using just CSS(3)
+				The markup will be simple nested lists
+				-->
+				<div class="tree" style="margin-left: 150px;">
+					<b><ul>
+						<li>
+							<a href="#" style=" font-size: 15px;">Our Clients</a>
+							<ul>
+								<li>
+									<a href="#" style=" font-size: 15px;">Consultancy</a>
+									<ul>
+										<li>
+											<a href="#" style=" font-size: 15px;">Sri Ramesh Varma Consultancy</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="#" style=" font-size: 15px;">Electricals & Engineering</a>
+									<ul>
+										<li>
+											<a href="#" style=" font-size: 15px;">Balaji Electricals & Engineering</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="#" style=" font-size: 15px;">Constructions</a>
+									<ul>
+										<li><a href="#" style=" font-size: 15px;">Tejaswi Constructions</a></li>
+										<li><a href="#" style=" font-size: 15px;">Surya Constructions</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul></b>
+				</div>	
 			</div>
 		</div>
-		<!-- //About Block -->
-		<!-- Question Block -->
-		<div class="block bg-dark pad-sm">
-			<div class="container">
-				<div class="text-center">
-					<h3><span class="light">Do you need help with</span> <b>electrical maintenance?</b></h3>
-					<p class="font24">Contact us – our technicians are ready to help you solve that issue.</p>
-					<div class="btn-inline"><a class="btn" href="#"><i class="icon icon-telephone"></i><span>Give Us A Call</span></a><a class="btn btn-invert" href="contact.html"><i class="icon icon-lightning"></i><span>Request A Free Estimate</span></a></div>
-				</div>
-			</div>
-		</div>
-		<!-- //Question Block -->
-		<!-- Personal -->
-		<div class="block">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-6">
-						<img src="images/person-01.jpg">
-						<h6 class="person-name">Kiran Kacha</h6>
-						<div class="person-position">Director</div>
-					</div>
-					<div class="col-sm-6">
-						<img src="images/person-02.jpg">
-						<h6 class="person-name">Sudhir Dalavayi</h6>
-						<div class="person-position">Director</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-4">
-						<img src="images/person-03.jpg">
-						<h6 class="person-name">Kiran Kacha</h6>
-						<div class="person-position">Project Engineer</div>
-					</div>
-					<div class="col-sm-4">
-						<img src="images/person-04.jpg">
-						<h6 class="person-name">Sreekanth Maddipatla</h6>
-						<div class="person-position">Chartered Accountant</div>
-					</div>
-					<div class="col-sm-4">
-						<img src="images/person-05.jpg">
-						<h6 class="person-name">Prasanth Maddikonda</h6>
-						<div class="person-position">AutoCAD Drawing</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- //Personal -->
-		<!-- Personal Block
-		<div class="block">
-			<div class="container">
-				<div class="row bulb-carousel">
-					<div class="col-sm-3">
-						<div class="bulb-block">
-							<div class="bulb">
-								<div class="bulb-img"><img src="images/person-01.jpg" alt=""></div>
-								<div class="bulb-mask"><img src="images/bulbmask-sm.png" alt=""></div>
-							</div>
-							<h6 class="person-name">Kiran Kacha</h6>
-							<div class="person-position">Director</div>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="bulb-block">
-							<div class="bulb">
-								<div class="bulb-img"><img src="images/person-02.jpg" alt=""></div>
-								<div class="bulb-mask"><img src="images/bulbmask-sm.png" alt=""></div>
-							</div>
-							<h6 class="person-name">Sudhir Dalavayi</h6>
-							<div class="person-position">Director</div>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="bulb-block">
-							<div class="bulb">
-								<div class="bulb-img"><img src="images/person-03.jpg" alt=""></div>
-								<div class="bulb-mask"><img src="images/bulbmask-sm.png" alt=""></div>
-							</div>
-							<h6 class="person-name">Kiran Kacha</h6>
-							<div class="person-position">Project Engineer</div>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="bulb-block">
-							<div class="bulb">
-								<div class="bulb-img"><img src="images/person-04.jpg" alt=""></div>
-								<div class="bulb-mask"><img src="images/bulbmask-sm.png" alt=""></div>
-							</div>
-							<h6 class="person-name">Prashanth Maddikonda</h6>
-							<div class="person-position">Auto CAD Designer</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		 //Personal Block -->
+		<!-- //Block -->
 	</div>
 	<!-- // Content  -->
 	<!-- Footer -->
@@ -320,7 +233,7 @@
 					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7629.632417839805!2d81.7737774!3d17.0326829!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a37a6ac93d03089%3A0xb6da07709df49f73!2sTejaswi+Electricals+Engineering!5e0!3m2!1sen!2s!4v1504965328825" width="475" height="225" frameborder="0" style="border:0" allowfullscreen></iframe>
 				</div>
 				<div class="visible-xs text-center">
-					<div class="copyright">© 2017 Tejaswi Electricals Engineering.
+					<div class="copyright">© 2016 Electrical Services.
 						<br> All Rights Reserved</div>
 					<div class="social-links">
 						<ul>
@@ -337,11 +250,10 @@
 		</div>
 	</div>
 	<!-- //Footer -->
+
 	<script src="js/jquery.js"></script>
 	<script src="js/plugins/bootstrap.min.js"></script>
 	<script src="js/plugins/slick.min.js"></script>
 	<script src="js/custom.js"></script>
-
 </body>
-
 </html>
