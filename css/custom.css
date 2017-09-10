@@ -53,6 +53,43 @@ img {
   padding: 17px;
 }
 
+/*==================================================
+ * Effect 1
+ * ===============================================*/
+.effect1:hover{
+  -webkit-box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.75);
+      box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.75);
+  -webkit-transition: all 0.5s; /* Safari */
+    -moz-transition: all 0.5s; /* Mozilla */
+      transition: all 0.5s;
+  background-color: black;
+  color: white;
+}
+
+.effect1:hover h6{
+  color: white;
+}
+
+.person-name {
+ text-align: center;
+ margin-top: 10px;
+}
+
+.person-position {
+  text-align: center;
+}
+
+.effect1 {
+  -webkit-transition: all 0.5s; /* Safari */
+    -moz-transition: all 0.5s; /* Mozilla */
+      transition: all 0.5s;
+  padding-top: 15px;
+}
+
+
+
+
 
 
 body {

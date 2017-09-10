@@ -16,6 +16,7 @@
 	<link href="css/plugins/slick.css" rel="stylesheet">
 	<link href="css/custom.css" rel="stylesheet">
 	<link rel="stylesheet" href="css\plugins\font-awesome-4.7.0\css\font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/plugins/animate.css">
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -115,11 +116,11 @@
 						</li>
 						<li><a href="gallery.html"><span class="electric-btn"><span class="text">Gallery</span></span></a>
 						</li>
+						<li><a href="contact.html"><span class="electric-btn"><span class="text">Contact</span></span></a>
+						</li>
 						<li><a href="clients.html"><span class="electric-btn"><span class="text">Clients</span></span></a>
 						</li>
 						<li><a href="faq.html"><span class="electric-btn"><span class="text">FAQ</span></span></a>
-						</li>
-						<li><a href="contact.html"><span class="electric-btn"><span class="text">Contact</span></span></a>
 						</li>
 					</ul>
 				</div>
@@ -142,39 +143,39 @@
 
 		<!-- //Breadcrumbs Block -->
 		<!-- About Block -->
-		<div class="block">
+		<div class="block" style="margin-top: -30px;">
 			<div class="container">
 				<h1 class="text-center">Our <b>Team</b></h1>
 				<p class="font24 text-center"></p>
 				<div class="row" style="padding-bottom: 50px;">
-					<div class="col-sm-4">
+					<div class="col-sm-4 box effect1">
 						<img src="images/person-00.jpg">
 						<h6 class="person-name">Tejaswi</h6>
 						<div class="person-position">Director</div>
 					</div>
-					<div class="col-sm-4">
+					<div class="col-sm-4 box effect1">
 						<img src="images/person-01.jpg">
 						<h6 class="person-name">Kiran Kacha</h6>
 						<div class="person-position">Director</div>
 					</div>
-					<div class="col-sm-4">
+					<div class="col-sm-4 box effect1">
 						<img src="images/person-02.jpg">
 						<h6 class="person-name">Sudhir Dalavayi</h6>
 						<div class="person-position">Director</div>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-sm-4">
+					<div class="col-sm-4 box effect1">
 						<img src="images/person-04.jpg">
 						<h6 class="person-name">Sreekanth Maddipatla</h6>
 						<div class="person-position">Chartered Accountant</div>
 					</div>
-					<div class="col-sm-4">
+					<div class="col-sm-4 box effect1">
 						<img src="images/person-03.jpg">
 						<h6 class="person-name">Kiran Kacha</h6>
 						<div class="person-position">Project Engineer</div>
 					</div>
-					<div class="col-sm-4">
+					<div class="col-sm-4 box effect1">
 						<img src="images/person-05.jpg">
 						<h6 class="person-name">Prasanth Maddikonda</h6>
 						<div class="person-position">AutoCAD Drawing</div>
@@ -350,6 +351,17 @@
 	<script src="js/plugins/bootstrap.min.js"></script>
 	<script src="js/plugins/slick.min.js"></script>
 	<script src="js/custom.js"></script>
+	<!--<script type="text/javascript">
+		$(function(){
+			var animationName = 'animated pulse';
+			$('.box').on('mouseover',function(){
+				$(this).addClass(animationName).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+						$(this).removeClass(animationName);
+				});
+			});
+
+		});
+	</script>-->
 
 </body>
 
