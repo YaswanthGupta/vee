@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<widget xmlns = "http://www.w3.org/ns/widgets" 
+   xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.tejaswielectricalsengineering.www" version = "1.0">
+   
+   <name>Tejaswi Electricals Engineering</name>
+   
+   <description>
+      Tejaswi Electricals Engineering Android App
+   </description>
+   
+   <author href = "http://yaswanthgupta.github.com" email = "tejaswielectricalsengineering@gmail.com">
+      Tutorials Point
+   </author>
+   
+   <preference name = "permissions" value = "none"/>
+   
+   <icon src = "res/icon/android/tee_logo.png" 
+      gap:platform = "android" gap:qualifier = "ldpi" />
+</widget>
