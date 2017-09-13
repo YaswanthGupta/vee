@@ -30,7 +30,6 @@
    <icon src = "res/icon/android/drawable-xxhdpi/144x144xxhdpi.png" 
       gap:platform = "android" gap:qualifier = "xxhdpi" />
 
-    <icon src = "res/icon/android/drawable-xxhdpi/192x192xxxhdpi.png"
       gap:platform = "android" gap:qualifier = "xxxhdpi" />
    
    <icon src = "res/icon/ios/Icon-72.png" gap:platform = "ios" gap:qualifier = ""/>
