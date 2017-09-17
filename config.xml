@@ -32,5 +32,7 @@
 
     <icon src = "res/icon/android/drawable-xxhdpi/192x192xxxhdi.png" 
       gap:platform = "android" gap:qualifier = "xxxhdpi" />
+
+    <access origin="*" />
     	
 </widget>
