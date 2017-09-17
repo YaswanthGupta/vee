@@ -33,6 +33,8 @@
     <icon src = "res/icon/android/drawable-xxhdpi/192x192xxxhdi.png" 
       gap:platform = "android" gap:qualifier = "xxxhdpi" />
 
+    <plugin name="https://github.com/apache/cordova-plugin-whitelist" source="git" />
+
     <access origin="*" />
     	
 </widget>
