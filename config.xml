@@ -1,40 +1,20 @@
-<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.vijayaelectricalsengineering.www"
+    versionCode = "10"
+    version     = "1.0.0" >
 
-<widget xmlns = "http://www.w3.org/ns/widgets" 
-   xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.tejaswielectricalsengineering.www" version = "1.0">
-   
-   <name>Tejaswi Electricals Engineering</name>
-   
-   <description>
-      Tejaswi Electricals Engineering
-   </description>
-   
-   <author href = "http://yaswanthgupta.github.com" email = "tejaswielectricalsengineering@gmail.com">
-      Tutorials Point
-   </author>
-   
-   <preference name = "permissions" value = "none"/>
-   
-   <icon src = "res/icon/android/drawable-ldpi/36x36ldpi.png" 
-      gap:platform = "android" gap:qualifier = "ldpi" />
-		
-   <icon src = "res/icon/android/drawable-mdpi/48x48mdpi.png" 
-      gap:platform = "android" gap:qualifier = "mdpi" />
-		
-   <icon src = "res/icon/android/drawable-hdpi/72x72hdpi.png" 
-      gap:platform = "android" gap:qualifier = "hdpi" />
-		
-   <icon src = "res/icon/android/drawable-xhdpi/96x96xhdpi.png" 
-      gap:platform = "android" gap:qualifier = "xhdpi" />
-		
-   <icon src = "res/icon/android/drawable-xxhdpi/144x144xxhdpi.png" 
-      gap:platform = "android" gap:qualifier = "xxhdpi" />
+<!-- versionCode is optional and Android only -->
 
-    <icon src = "res/icon/android/drawable-xxhdpi/192x192xxxhdi.png" 
-      gap:platform = "android" gap:qualifier = "xxxhdpi" />
+  <name>Vijaya Electricals Engineering</name>
 
-    <plugin name="cordova-plugin-whitelist" spec="~1.3.2" />
+  <description>
+      Based @ Rajahmundry
+  </description>
 
-    <access origin="*" />
-    	
+  <author href="http://yaswanthgupta.github.io" email="yaswanthgupta.5@gmail.com">
+      Yaswanth Gupta
+  </author>
+
 </widget>
